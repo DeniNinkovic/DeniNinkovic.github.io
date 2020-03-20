@@ -1,0 +1,10 @@
+.template {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 991px) {
+  .template {
+    flex-direction: column;
+  }
+}
