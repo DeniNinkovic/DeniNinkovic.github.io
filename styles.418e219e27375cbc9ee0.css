@@ -1,4 +1,4 @@
-*{font-family:Roboto,sans-serif;font-size:1.2rem}body{padding:0}
+*{font-family:Roboto,sans-serif;font-size:1.2rem}body{padding:0}.container{min-height:calc(100vh - 70px);min-width:100%}.under-construction{display:flex;align-items:center;justify-content:center}
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
