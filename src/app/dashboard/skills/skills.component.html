@@ -2,10 +2,10 @@
     <app-general-information *ngIf="!layoutService.isMobile()"></app-general-information>
     <div class="icons">
         <div *ngFor="let skill of skillsIcons" class="d-inline-flex">
-            <fa-icon [icon]="skill.icon" style="color: #4267B2" t size="2x"></fa-icon>
+            <fa-icon [icon]="skill.icon" style="color: #4267B2" size="2x"></fa-icon>
         </div>
     </div>
-    <div class="icons">
+    <div class="stars">
         <div *ngFor="let skill of skillsIcons">
             <star-rating value="{{skill.grade}}" totalstars="{{10}}" checkedcolor="#17a2b8" uncheckedcolor="black" size="24px" readonly="true"></star-rating>
         </div>
