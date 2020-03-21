@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {faFacebook, faInstagram, faJava, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import {faJava} from '@fortawesome/free-brands-svg-icons';
 
 @Component({
     selector: 'app-about',
@@ -8,9 +8,6 @@ import {faFacebook, faInstagram, faJava, faLinkedin} from '@fortawesome/free-bra
 })
 export class AboutComponent implements OnInit {
     faJava = faJava;
-    faInstagram = faInstagram;
-    faFacebook = faFacebook;
-    faLinkedin = faLinkedin;
 
     constructor() {
     }

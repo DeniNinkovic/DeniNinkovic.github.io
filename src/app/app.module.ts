@@ -11,6 +11,8 @@ import { ExperienceComponent } from './dashboard/experience/experience.component
 import { EducationComponent } from './dashboard/education/education.component';
 import { ContactComponent } from './dashboard/contact/contact.component';
 import { GeneralInformationComponent } from './dashboard/general-information/general-information.component';
+import { SocialNetworksComponent } from './dashboard/social-networks/social-networks.component';
+import {RatingModule} from 'ng-starrating';
 
 @NgModule({
     declarations: [
@@ -21,12 +23,14 @@ import { GeneralInformationComponent } from './dashboard/general-information/gen
         ExperienceComponent,
         EducationComponent,
         ContactComponent,
-        GeneralInformationComponent
+        GeneralInformationComponent,
+        SocialNetworksComponent
     ],
     imports: [
         BrowserModule,
         AppRoutingModule,
         FontAwesomeModule,
+        RatingModule,
     ],
     providers: [],
     bootstrap: [AppComponent]
