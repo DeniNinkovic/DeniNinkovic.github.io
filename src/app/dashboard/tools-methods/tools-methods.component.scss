@@ -15,8 +15,18 @@
   justify-content: center;
 }
 
+.table-border-bottom {
+  border-bottom: 5px solid #dee2e6;
+}
+
 @media screen and(max-width: 991px) {
   .custom-table {
     margin: 0;
+  }
+  .icon {
+    margin-top: 50px;
+  }
+  h1 {
+    font-size: 1.8rem;
   }
 }
