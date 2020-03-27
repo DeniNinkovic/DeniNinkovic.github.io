@@ -1,6 +1,5 @@
 import {Component, OnInit} from '@angular/core';
 import {faAngular, faCss3, faDocker, faGit, faHtml5, faJava, faJs, faPython, faReact} from '@fortawesome/free-brands-svg-icons';
-import {LayoutService} from '../../services/layout.service';
 
 @Component({
     selector: 'app-skills',
@@ -22,7 +21,7 @@ export class SkillsComponent implements OnInit {
         this.faJava, this.faAngular, this.faReact, this.faDocker, this.faGit, this.faJs, this.faCss3, this.faHtml5, this.faPython
     ];
 
-    constructor(public layoutService: LayoutService) {
+    constructor() {
     }
 
     ngOnInit(): void {

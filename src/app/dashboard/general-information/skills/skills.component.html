@@ -1,0 +1,40 @@
+<!--<div class="container">-->
+<!--    <div class="skills">-->
+<!--        <div class="icons">-->
+<!--            <div *ngFor="let skill of skillsIcons" class="d-inline-flex">-->
+<!--                <fa-icon [icon]="skill.icon" style="color: #4267B2" size="2x"></fa-icon>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="stars">-->
+<!--            <div *ngFor="let skill of skillsIcons">-->
+<!--                <star-rating value="{{skill.grade}}" totalstars="{{10}}" checkedcolor="#17a2b8" uncheckedcolor="black" size="24px"-->
+<!--                             readonly="true"></star-rating>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="icons" *ngIf="!layoutService.isMobile()">-->
+<!--            <div *ngFor="let skill of skillsIcons">-->
+<!--                {{skill.name}}-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!--    <app-general-information *ngIf="!layoutService.isMobile()"></app-general-information>-->
+<div class="skills text-white-50">
+    <ul>
+        <li>
+            <p>JAVA</p><span class="bar"><span class="java"></span></span>
+        </li>
+        <li>
+            <p>JAVASCRIPT</p><span class="bar"><span class="javascript"></span></span>
+        </li>
+        <li>
+            <p>TYPESCRIPT</p><span class="bar"><span class="typescript"></span></span>
+        </li>
+        <li>
+            <p>CSS</p><span class="bar"><span class="css"></span></span>
+        </li>
+        <li>
+            <p>HTML</p><span class="bar"><span class="html"></span></span>
+        </li>
+    </ul>
+</div>

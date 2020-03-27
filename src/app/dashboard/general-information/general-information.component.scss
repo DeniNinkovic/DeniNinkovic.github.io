@@ -1,16 +1,26 @@
 .about-general-info {
-  width: 400px;
+  width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: start;
   min-height: 100%;
+  height: calc(100vh - 70px);
+}
+
+.about-general-info img {
+  width: 300px;
+}
+
+app-skills {
+  width: 100%;
 }
 
 @media screen and (max-width: 991px) {
   .about-general-info {
     width: 100vw;
     justify-content: center;
+    height: 100%;
   }
 
 }

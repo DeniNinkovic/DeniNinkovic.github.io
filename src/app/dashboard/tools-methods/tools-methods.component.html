@@ -1,0 +1,72 @@
+<div class="experience-container">
+    <app-general-information *ngIf="!layoutService.isMobile()"></app-general-information>
+    <div></div>
+    <div class="custom-table">
+        <div class="icon">
+            <fa-icon class="text-black-50" [icon]="faTools" size="3x"></fa-icon>
+            <h1 class="mt-5">Tools and methods</h1>
+        </div>
+        <table *ngIf="!layoutService.isMobile()" class="table table-striped table-hover table-dark">
+            <tbody>
+            <tr>
+                <td>Methods</td>
+                <td>Scrum, Agile Software Development</td>
+            </tr>
+            <tr>
+                <td>Java technologies</td>
+                <td>JEE, JPA, Servlet, JDBC, Spring Framework, Dropwizad, Junit, Mockit</td>
+            </tr>
+            <tr>
+                <td>IDE and Tools</td>
+                <td>IntelliJ IDEA, Git, JIRA, Confluence, Marathon, Mesos, Docker, Maven, Jenkins,
+                    Sentry, CI/CD, SSH
+                </td>
+            </tr>
+            <tr>
+                <td>JavaScript frameworks</td>
+                <td>Angular 2+, ReactJS</td>
+            </tr>
+            <tr>
+                <td>Databases</td>
+                <td>MySQL, MariaDB, PostgreSQL</td>
+            </tr>
+            </tbody>
+        </table>
+        <table *ngIf="layoutService.isMobile()" class="table table-striped table-hover table-dark">
+            <tbody>
+            <tr>
+                <td>Methods</td>
+            </tr>
+            <tr>
+                <td>Scrum, Agile Software Development</td>
+            </tr>
+            <tr>
+                <td>Java technologies</td>
+            </tr>
+            <tr>
+                <td>JEE, JPA, Servlet, JDBC, Spring Framework, Dropwizad, Junit, Mockit</td>
+            </tr>
+            <tr>
+                <td>IDE and Tools</td>
+            </tr>
+            <tr>
+                <td>IntelliJ IDEA, Git, JIRA, Confluence, Marathon, Mesos, Docker, Maven, Jenkins,
+                    Sentry, CI/CD, SSH
+                </td>
+            </tr>
+            <tr>
+                <td>JavaScript frameworks</td>
+            </tr>
+            <tr>
+                <td>Angular 2+, ReactJS</td>
+            </tr>
+            <tr>
+                <td>Databases</td>
+            </tr>
+            <tr>
+                <td>MySQL, MariaDB, PostgreSQL</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
